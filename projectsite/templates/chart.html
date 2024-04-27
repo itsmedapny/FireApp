@@ -120,7 +120,7 @@
     function loadChartData() {
 
       // pieChart
-      fetch("/piechart/")
+      fetch("/pieChart/")
         .then((response) => response.json())
         .then((data) => {
           var severityLevels = Object.keys(data);
